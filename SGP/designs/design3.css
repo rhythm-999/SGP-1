@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    height: 100%;
+    background: url(https://www.linkpicture.com/q/Untitled-design-1_2.png);
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    margin: 0;
+    height: 100%;
+    background: url(https://www.linkpicture.com/q/Untitled-design-1_2.png);
+    background-repeat: no-repeat;
+}
+
+#mainl{
+    grid-template-rows: repeat(5, 1fr);
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 18vh;
+    font-weight: bold;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.left{
+    position: absolute;
+    float : left;
+    left: 40px;
+    top: 13px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+.left img{
+    width: 130px;
+}
+.mid {
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-left: 14vw;
+    font-size:larger;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.intro{
+    height: 63vh;
+}
+
+.intro,.about,.education,.experience,.skills{
+    margin: 71px;
+    background-color: #f7c575d0;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    border-radius: 5px;
+    padding: 50px;
+    text-align: center;
+}
+
+.intro{
+    margin-top: 10px;
+}
+
+.nam{
+    margin-left: 28vw;
+    margin-top: 4.3vh;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 50%;
+    height: 19vw;
+    width: 19vw;
+    padding: 40px 70px 70px 70px;
+    background: rgba(0, 0, 0, 0.548);
+    color: blanchedalmond;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+}
+#imghero{
+    float: right;
+    margin-right: 8vw;
+}
+.short_intro{
+    float:left;
+    font-size: larger;
+    width: 26vw;
+    margin-left: 7vw;
+    margin-top: 2vw;
+    background: #b03b2ec5;
+    padding: 1vw;
+    color: lavender;
+    border-radius: 4px;
+}
+.abd{
+    font-size: larger;
+}
+#heading{
+    background: linear-gradient(to right, #f5d837, #bbb812);
+    padding: 10px 55px;
+    color: white;
+    border-radius: 20px;
+    font-size: x-large;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.detail{
+    margin-left: 32%;
+  }
+.exp,.edu,.abd{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 130px;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.pi{
+    margin-left: 10%;
+}
+.pi1{
+    margin-right: 12%;
+    text-align: left;
+}
+.p1,.p2,.p,.pi{
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: cadetblue;
+    border-width: 2px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: x-large;
+    background-color: #fff;
+
+}
+
+.btech,.mtech{
+    font-size: large;
+    background-color: #fff;
+    line-height: .7;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Philosopher', sans-serif;
+}
+.tech{
+    margin-bottom: 10%;
+}
+h3,.h3,.tech{
+    text-decoration:underline;
+}
+
+
+.ski{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 95px;
+    text-align: left;
+    margin-top: 70px;
+    font-size: 20px;
+    padding: 0%;    
+}
+.skill_{
+    font-size: large;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-top: 23px;
+    font-family: 'Philosopher', sans-serif;
+    padding-left: 3%;
+}
+dd{
+    margin-left: 30%;
+}
+dt{
+    margin-left: 17%;
+}

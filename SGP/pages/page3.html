@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>page 3</title>
+        <link rel="stylesheet" href="page3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400&family=Nunito:wght@300&family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@500&family=Work+Sans:wght@100;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="menubar">
+            <!-- menubar -->
+            <nav>
+                <label class="logo">EDUCATION</label>
+                <ul>
+                    <li><a class="active" href="../main/main.html">Home</a></li>
+                    <li><a class="active" href="../main/main.html#designs">Designs</a></li>
+                </ul>
+            </nav>
+        </div>
+        <br><br>
+        <div id="details">
+            <div>
+                <a href="page1.html" id="personal">PERSONAL INFO</a>
+            </div>
+            <div>
+                <a href="page2.html" id="experience">EXPERIENCE</a>
+            </div>
+            <div>
+                <a href="page3.html" id="education">EDUCATION</a>
+            </div>
+            <div>
+                <a href="page4.html" id="skills">SKILLS</a>
+            </div>
+            <div>
+                <a href="page5.html" id="summary">SUMMARY</a>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div id="instruction">
+            <h1>EDUCATION</h1>
+            <p>Add your education background - 1</p><br><br>
+            <form onsubmit="return validateForm()">
+                <input type="text" placeholder="Enter the name of your Institute" id="school_1" class="form">
+                <p class="error" id="school_error_1"></p>
+                <input type="text" placeholder="Enter your Field of Study" id="field_1" class="form">
+                <p class="error" id="field_error_1"></p>
+                <input type="text" placeholder="Enter Starting Year" class="form" id="preyear_1">
+                <p class="error" id="preyear_error_1"></p>
+                <input type="text" placeholder="Enter Ending Year" class="form" id="postyear_1">
+                <p class="error" id="postyear_error_1"></p>
+                <input type="text" placeholder="Enter the City" id="city_1" class="form">
+                <p class="error" id="city_error_1"></p>
+                <input type="text" placeholder="Enter the State" id="state_1" class="form">
+                <p class="error" id="state_error_1"></p><br><br>
+
+
+
+            <p>Add your education background - 2</p><br><br>
+            <form onsubmit="return validateForm()">
+                <input type="text" placeholder="Enter the name of your Institute" id="school_2" class="form">
+                <p class="error" id="school_error_2"></p>
+                <input type="text" placeholder="Enter your Field of Study" id="field_2" class="form">
+                <p class="error" id="field_error_2"></p>
+                
+                <input type="text" placeholder="Enter Starting Year" class="form" id="preyear_2">
+                <p class="error" id="preyear_error_2"></p>
+                <input type="text" placeholder="Enter Ending Year" class="form" id="postyear_2">
+                <p class="error" id="postyear_error_2"></p>
+                <input type="text" placeholder="Enter the City" id="city_2" class="form">
+                <p class="error" id="city_error_2"></p>
+                <input type="text" placeholder="Enter the State" id="state_2" class="form">
+                <p class="error" id="state_error_2"></p><br><br><br><br>
+                <input type="submit" onclick="passvlaues()" class="btn" id="sub">
+            </form>
+            <br><br>
+            <a href="page4.html" class="btn" id="btn1">
+                SAVE & NEXT
+            </a> 
+            <a href="page2.html" class="btn" id="btn1">
+                PREVIOUS
+            </a>
+        </div>
+        <br><br><br><br> 
+    <script src="page3.js"></script> 
+    </body>
+</html>

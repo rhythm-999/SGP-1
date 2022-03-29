@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(4, 4, 53);
+    color: wheat;
+    font-family: 'Merienda', sans-serif;
+}
+.left{
+    position: absolute;
+    float : left;
+    left: 40px;
+    top: 13px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto Slab', sans-serif;
+    color: white;
+}
+.left img{
+    width: 130px;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mid{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-left: 14vw;
+    font-size:24px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.startingpart{
+    margin: 25vh 66vh;
+    width: 60vw;
+    /* height: 20vh; */
+    /* align-items: center; */
+}
+.smallintro{
+    font-size: 20px;
+    width: 39vw;
+}
+.head{
+    display: block;
+    font-size: 3rem;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    line-height:1.5;
+    color: gold;
+}
+
+.about{
+    margin: 45vh 30vh;
+    font-size:25px;
+}
+.about p{
+    /* width: 600px; */
+    text-align: justify;
+}
+.about img{
+    /* height: auto; */
+    width: 410px;
+    float: right;
+    /* margin-top: -260px; */
+}
+.about img:hover{
+    box-shadow: 0px 0px 0px yellow;
+}
+.detail{
+    margin-left: 9%;
+  }
+.experience{
+    margin: -10vh 30vh;
+    font-size:22px;
+    /* float: right; */
+    height: 500px;
+}
+/* .experience ol{
+    width: 600px;
+} */
+/* .timeline-row {
+    page-break-inside: avoid;
+} */
+.timeline-side {
+    float: left;
+    width: 21%;
+    text-align: right;
+    padding-right: 15px;
+    color:darkturquoise;
+    font-size: 25px;
+    margin: 135px 35px auto  -13px;
+    border-radius: 20px;
+}
+.timeline-company {
+    padding: 3px 7px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+.timeline-body {
+    float: left;
+    width: 77%;
+}
+.timeline-position {
+    font-weight: 400;
+    font-size: 35px;
+    color:gold;
+    line-height: 0.3;
+}
+.timeline-body.p-summary {
+    right: 70px;
+    margin: 21px -8px;
+}
+
+.timeline-date{
+    font-size:17px;
+}
+
+.education{
+    margin: 75vh 30vh;
+    font-size: 23px;
+    line-height: 1.5;
+    margin-bottom: -7%;
+}
+.edu{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 130px;
+    justify-content: space-around;
+   
+}
+.edu h3{
+    text-align: center;
+}
+
+.btech,.mtech{
+     border: 3px solid gold;
+     border-radius: 25px;
+     height: 100%;
+     width: auto;
+     text-align: justify;
+}
+.btech,.mtech span{
+    text-align: center;
+}
+.btech,.mtech li{
+    text-align:justify;
+}
+.edu span{
+    color:rgb(38, 168, 168);
+}
+.skills{
+    margin: 45vh 30vh;
+    /* text-align: center; */
+}
+.ski{
+    font-size: 1.4rem;
+    margin-left: 35%;
+    /* text-align: center; */
+}
+.ski_left{
+    margin-left: -20%;
+}
+.ski_right{
+    margin-left: 27%;
+}
+/* .ski dt{
+    color: gold;
+} */

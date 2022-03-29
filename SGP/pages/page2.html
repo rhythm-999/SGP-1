@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>page 2</title>
+        <link rel="stylesheet" href="page2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400&family=Nunito:wght@300&family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@500&family=Work+Sans:wght@100;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="menubar">
+            <!-- menubar -->
+            <nav>
+                <label class="logo">EXPERIENCE</label>
+                <ul>
+                  <li><a class="active" href="../main/main.html">Home</a></li>
+                  <li><a class="active" href="../main/main.html#designs">Designs</a></li>
+                </ul>
+            </nav>
+        </div>
+        <br><br>
+        <div id="details">
+            <div>
+                <a href="page1.html" id= "personal">PERSONAL INFO</a>
+            </div>
+            <div>
+                <a href="page2.html" id="experience">EXPERIENCE</a>
+            </div>
+            <div>
+                <a href="page3.html" id="education">EDUCATION</a>
+            </div>
+            <div>
+                <a href="page4.html" id="skills">SKILLS</a>
+            </div>
+            <div>
+                <a href="page5.html" id="summary">SUMMARY</a>
+            </div>
+        </div>
+        <div id="instruction">
+            <h1>EXPERIENCE</h1>
+            <p>List Out Your Experience Here.</p><br><br>
+            <form  onsubmit="return validateForm()">
+                <!-- Experience 1 -->
+                <input type="text" placeholder="Enter your Job Title" id="title_1" class="form"><br><br>
+                <p class="error" id="title_error_1"></p>
+
+                <textarea id="exp_description_1" placeholder="Enter some details About Your Experience" class="form"></textarea><br><br>
+                <p class="error" id="description_error_1"></p>
+                <textarea id="bullet_1_1" placeholder="Enter first Bullet Point of Your Experience" class="form"></textarea><br><br>
+                <p class="error" id="bulle_error_1_1"></p>
+                <textarea id="bullet_2_1" placeholder="Enter second Bullet Point of Your Experience" class="form"></textarea>
+                <p class="error" id="bullet_error_2_1"></p>
+
+                Start Date:
+                <select name="Month" id="start_month_1">
+                    <option value="select">--SELECT--</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <p class="error p-select" id="start_month_error_1"></p>
+                <input type="text" placeholder="Enter Start Year" class="form" id="start_year_1">
+                <p class="error" id="start_year_error_1"></p>
+                End date:
+                <select name="Month" id="end_month_1">
+                    <option value="select">--SELECT--</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <p class="error p-select" id="end_month_error_1" class="error"></p>
+                <input type="text" placeholder="Enter End Year" class="form" id="end_year_1">
+                <p class="error" id="end_year_error_1"></p>
+
+                <!-- Experience 2 -->
+                <br><br>
+                <p id="heading" style="font-size: larger;">Enter Your Second Experience</p>
+                <input type="text" placeholder="Enter your Job Title" id="title_2" class="form"><br><br>
+                <p class="error" id="title_error_2"></p>
+
+                <textarea id="exp_description_2" placeholder="Enter some details About Your Experience" class="form"></textarea><br><br>
+                <p class="error" id="description_error_2"></p>
+                <textarea id="bullet_1_2" placeholder="Enter first Bullet Point of Your Experience" class="form"></textarea><br><br>
+                <p class="error" id="bulle_error_1_2"></p>
+                <textarea id="bullet_2_2" placeholder="Enter second Bullet Point of Your Experience" class="form"></textarea>
+                <p class="error" id="bullet_error_2_2"></p>
+
+                Start Date:
+                <select name="Month" id="start_month_2">
+                    <option value="select">--SELECT--</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <p class="error p-select" id="start_month_error_2"></p>
+                <input type="text" placeholder="Enter Start Year" class="form" id="start_year_2">
+                <p class="error" id="start_year_error_2"></p>
+                End date:
+                <select name="Month" id="end_month_2">
+                    <option value="select">--SELECT--</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <p class="error p-select" id="end_month_error_2" class="error"></p>
+                <input type="text" placeholder="Enter End Year" class="form" id="end_year_2">
+                <p class="error" id="end_year_error_2"></p>
+                <input type="submit" onclick="passvalues()" class="btn" id="sub">
+            </form>
+            <br><br>
+            <a href="page3.html" class="btn" id="btn1">
+                SAVE & NEXT
+            </a> 
+            <a href="page1.html" class="btn" id="btn1">
+                PREVIOUS
+            </a>
+        </div>
+        <br><br><br><br>
+    
+    <script src="page2.js"></script>
+    </body>
+</html>

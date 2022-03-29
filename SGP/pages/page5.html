@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>page 5</title>
+        <link rel="stylesheet" href="page5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400&family=Nunito:wght@300&family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@500&family=Work+Sans:wght@100;400&display=swap" rel="stylesheet">
+
+</head>
+    <body>
+        <div id="menubar">
+            <!-- menubar -->
+            <nav>
+                <label class="logo">SUMMARY</label>
+                <ul>
+                    <li><a class="active" href="../main/main.html">Home</a></li>
+                    <li><a class="active" href="../main/main.html#designs">Designs</a></li>
+                </ul>
+            </nav>
+        </div>
+        <br><br>
+        <div id="details">
+            <div>
+                <a href="page1.html" id="personal">PERSONAL INFO</a>
+            </div>
+            <div>
+                <a href="page2.html" id="experience">EXPERIENCE</a>
+            </div>
+            <div>
+                <a href="page3.html" id="education">EDUCATION</a>
+            </div>
+            <div>
+                <a href="page4.html" id="skills">SKILLS</a>
+            </div>
+            <div>
+                <a href="page5.html" id="summary">SUMMARY</a>
+            </div>
+        </div>
+        <br><br><br>
+        <div id="instruction">
+            <h1>SUMMARY</h1>
+            <form onsubmit="return validateForm()">
+                <textarea id="summary5" placeholder="Write a Short Summary About Yourself" rows=4></textarea>
+                <p class="error" id="summary_error"></p>
+                <input type="submit" onclick="passvlaues()" id="sub" class="btn">
+            </form>
+            <br><br>
+            <a href="#" onclick="passvlaues();" class="btn" id="btn1"> 
+                SAVE
+            </a> 
+            <a href="page4.html" class="btn" id="btn1">
+                PREVIOUS
+            </a><br><br>
+        
+        
+        
+            <div class="button">
+                <div></div>
+                Try with <br><br>
+                <a id="Design1" class="dsgn" href="../designs/design1.html">Design 1</a><br><br>
+                <a id="Design2" class="dsgn" href="../designs/design2.html">Design 2</a><br><br>
+                <a id="Design3" class="dsgn" href="../designs/design3.html">Design 3</a>
+            </div>
+        </div>
+        <br><br><br><br>
+    <script src="page5.js"></script> 
+    </body>
+</html>

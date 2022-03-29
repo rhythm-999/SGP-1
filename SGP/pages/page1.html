@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>page 1</title>
+        <link rel="stylesheet" href="page1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400&family=Nunito:wght@300&family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@500&family=Work+Sans:wght@100;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="menubar">
+            <!-- menubar -->
+            <nav>
+                <label class="logo">PERSONAL DETAILS</label>
+                <ul class="nav-bar">
+                  <li><a class="active" href="../main/main.html">Home</a></li>
+                  <li><a class="active" href="../main/main.html#designs">Designs</a></li>
+                </ul>
+            </nav>
+        </div>
+        <br><br>
+        <div id="details">
+            <div>
+                <a href="page-1.html" id="personal">PERSONAL INFO</a>
+            </div>
+            <div>
+                <a href="page2.html" id="experience">EXPERIENCE</a>
+            </div>
+            <div>
+                <a href="page3.html" id="education">EDUCATION</a>
+            </div>
+            <div>
+                <a href="page4.html" id="skills">SKILLS</a>
+            </div>
+            <div>
+                <a href="page5.html" id="summary">SUMMARY</a>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div id="instruction">
+            <h1>COMPLETE YOUR PORTFOLIO HERE</b></h1><br>
+            <form onsubmit="return validateForm()">
+                <input type="text" placeholder="Enter your first name" id="f_name" class="form">
+                <p id="f_name_error" class="error"></p>
+                <input type="text" placeholder="Enter your address" id="address" class="form">
+                <p id="address_error" class="error"></p>
+                <input type="text" placeholder="Enter city" id="city" class="form">
+                <p id="city_error" class="error"></p>
+                <input type="text" placeholder="Enter zipcode" id="zipcode" class="form">
+                <p id="zipcode_error" class="error"></p>
+                <input type="text" placeholder="Enter country" id="country" class="form">
+                <p id="country_error" class="error"></p>
+                <input type="email" placeholder="Enter your email" id="email" class="form">
+                <p id="email_error" class="error"></p>
+                <input type="text" placeholder="Enter your mobile number" id="phone" class="form">
+                <p id="phone_error" class="error"></p>
+                <input type="submit" class="btn" onclick="passvalues()" placeholder="SUBMIT" id="sub">
+            </form>
+            <br><br>
+            <a href="page2.html" id="btn1" class="btn">
+                NEXT
+            </a>
+        </div>
+        <br><br><br><br>
+    <script src="page1.js">
+    </script>  
+    </body>
+</html>
